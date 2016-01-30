@@ -111,8 +111,8 @@ namespace KindleClippings
             var hasPageNumber = line.Contains(" on Page ");
             var hasLocation = line.Contains(" Location ");
 
-            var dtIdx = 8;
-            var locIdx = 4;
+            var dtIdx = 9;
+            var locIdx = 5;
 
             if (hasPageNumber)
             {
