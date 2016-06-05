@@ -108,7 +108,7 @@ namespace KindleClippings
                     break;
             }
 
-            var hasPageNumber = line.Contains(" on Page ");
+            var hasPageNumber = line.ToLower().Contains(" on page ");
             var hasLocation = line.Contains(" Location ");
 
             var dtIdx = 9;
